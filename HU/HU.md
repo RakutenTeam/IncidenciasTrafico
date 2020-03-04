@@ -5,3 +5,4 @@
 * El usuario_registrado podrá enviar incidencias
 * El usuario_autorizado querrá ver la base de datos de incidencias
 * El usuario podrá decir si ya no está la incidencia
+* El administrador podrá gestionar a los distintos usuarios
