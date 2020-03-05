@@ -1,0 +1,5 @@
+{
+   "lenguaje":"Raku",
+   "build":"Sakefile",
+   "clase":"lib/usuario.pm6"
+}
