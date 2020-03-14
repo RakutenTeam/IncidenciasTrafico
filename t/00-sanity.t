@@ -4,11 +4,10 @@ use IncidenciasTrafico::NoTipo;
 use Test;
 
 my $tipo = Atasco;
-my $test = IncidenciasTrafico::Incidencia.new(2,"hola",:$tipo);
+my $test = IncidenciasTrafico::Incidencia.new(:2ubicacion,:description("hola"),:$tipo);
 
-say "ubicacion: ";
-say $test.ubicacion;
-say "descripcion: ";
-say $test.descripcion;
+ok $test.ubicacion, "Ubicación";
+
+ok $test.descripcion "Descripcion";
 
 done-testing;
