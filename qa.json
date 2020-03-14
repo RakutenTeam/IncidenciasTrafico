@@ -1,5 +1,6 @@
 {
    "lenguaje":"Raku",
    "build":"Sakefile",
-   "clase":"lib/IncidenciasTrafico/Usuario.pm6"
+   "clase":"lib/IncidenciasTrafico/incidencias.pm6",
+   "test" : "t/00-sanity.t"
 }
