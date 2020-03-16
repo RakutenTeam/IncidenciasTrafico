@@ -1,6 +1,11 @@
-language: raku
-raku:
- -2020.01
-before_install:
+language:
+  - minimal
 
-script: IncidenciasTrafico/t/00-sanity.t
+services:
+  - docker
+
+install:
+  - docker pull jjmerelo/raku-test
+  - docker images
+
+script: docker run -t -v  $TRAVIS_BUILD_DIR:/IncidenciasTrafico/00-sanity.t
