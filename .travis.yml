@@ -8,4 +8,4 @@ install:
   - docker pull jjmerelo/raku-test
   - docker images
 
-script: docker run -t -v  $TRAVIS_BUILD_DIR:/IncidenciasTrafico/t/00-sanity
+script: docker run -t -v  $TRAVIS_BUILD_DIR:/t/00-sanity
