@@ -3,4 +3,4 @@ raku:
  -2020.01
 before_install:
 
-script: /t/00-sanity.t
+script: IncidenciasTrafico/t/00-sanity.t
