@@ -4,10 +4,22 @@ use IncidenciasTrafico::NoTipo;
 use Test;
 
 my $tipo = Atasco;
-my $test = IncidenciasTrafico::Incidencia.new(:2ubicacion,:description("hola"),:$tipo);
+my $ubicacion = 2;
+my $test = IncidenciasTrafico::Incidencia.new(:$ubicacion,:descripcion("hola"),:$tipo);
+
+is($test.ubicacion, $ubicacion, "Construccion ubicacion correcta");
+$test.cerrar;
+is($test.activo, False, "Cerrada de forma correcta");
 
 ok $test.ubicacion, "Ubicación";
+ok $test.descripcion, "Descripcion";
+ok $test.tipo, "Tipo";
 
-ok $test.descripcion "Descripcion";
+#ok $test.activo, "Activa";
+#ok !$test.cerrar, "Cerrar";
+
+
+
+#a la izquierda es la condición y derecha descripcion
 
 done-testing;
