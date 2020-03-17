@@ -15,8 +15,6 @@ ok $test.ubicacion, "Ubicación";
 ok $test.descripcion, "Descripcion";
 ok $test.tipo, "Tipo";
 
-#ok $test.activo, "Activa";
-#ok !$test.cerrar, "Cerrar";
 #a la izquierda es la condición y derecha descripcion
 
 done-testing;
