@@ -7,4 +7,4 @@
 * El usuario podrá decir si ya no está la incidencia
 * El administrador podrá gestionar a los distintos usuarios
 * Cuando se crea una incidencia será necesario pasarle una ubicación y el tipo
-* Para cerrar una incidencia, se tiene que cambiar su estado de activación
+* Para cerrar una incidencia, se tiene que cambiar su estado de activación.
