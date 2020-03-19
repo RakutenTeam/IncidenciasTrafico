@@ -8,3 +8,6 @@
 * El administrador podrá gestionar a los distintos usuarios
 * Cuando se crea una incidencia será necesario pasarle una ubicación y el tipo
 * Para cerrar una incidencia, se tiene que cambiar su estado de activación.
+* Cuando se crea una Zona, se le tiene que pasar un nombre.
+* Se pueden añadir incidencias a una Zona.
+* Se pueden archivar incidencias de una Zona.

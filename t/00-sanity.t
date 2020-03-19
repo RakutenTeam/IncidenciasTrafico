@@ -1,6 +1,7 @@
 use IncidenciasTrafico::Usuario;
 use IncidenciasTrafico::Incidencia;
 use IncidenciasTrafico::NoTipo;
+
 use Test;
 
 my $tipo = Atasco;

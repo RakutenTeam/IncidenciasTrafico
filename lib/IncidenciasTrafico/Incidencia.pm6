@@ -2,7 +2,6 @@
 enum TipoIncidencia <Accidente Atasco Obras CarreteraCortada>;
 
 
-
 unit class IncidenciasTrafico::Incidencia;
 
 
