@@ -8,7 +8,11 @@ El lenguaje que vamos a usar para realizar la creación del microservicio será 
 Las historias de usuario se encuentra en [HU](https://github.com/RakutenTeam/IncidenciasTrafico/tree/master/HU).
 
 Desarollado por:     
-     
-| thejosess       | https://www.linkedin.com/in/jose-santos-971459194/                   |     
-| KiiKe11         | https://www.linkedin.com/in/enrique-ruiz-limones-562b381a3/          |     
-| SamuS1906       | https://www.linkedin.com/in/samuel-jim%C3%A9nez-pi%C3%B1ero-412b4b1a3/ |     
+
+
+
+| Nombre          | Perfil LinkedIn                                                        |       
+|-----------------|------------------------------------------------------------------------|     
+| José Santos     |https://www.linkedin.com/in/jose-santos-971459194/                      |        
+| Enrique Ruiz    | https://www.linkedin.com/in/enrique-ruiz-limones-562b381a3/            |       
+| Samuel Jimenez  | https://www.linkedin.com/in/samuel-jim%C3%A9nez-pi%C3%B1ero-412b4b1a3/ |       
