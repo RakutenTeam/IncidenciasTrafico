@@ -1,6 +1,6 @@
-use IncidenciasTrafico::Usuario;
 use IncidenciasTrafico::Incidencia;
 use IncidenciasTrafico::NoTipo;
+use JSON::Fast;
 
 use Test;
 
@@ -12,11 +12,17 @@ my $test = IncidenciasTrafico::Incidencia.new(:$cord_x,:$cord_y,:descripcion("ho
 is($test.cord_x, $cord_x, "Construccion ubicacion correcta");
 is($test.cord_y, $cord_y, "Construccion ubicacion correcta");
 
+is($test.tipo, $tipo, "Construccion tipo correct0");
+
 $test.cerrar;
 is($test.activo, False, "Cerrada de forma correcta");
 
 ok $test.descripcion, "Descripcion";
-ok $test.tipo, "Tipo";
+
+my $data = $test.data;
+say $test.data;
+say $test.descripcion;
+say to-json $data;
 
 #a la izquierda es la condición y derecha descripcion
 

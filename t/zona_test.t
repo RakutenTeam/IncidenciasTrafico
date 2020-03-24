@@ -12,12 +12,9 @@ ok $test.nombre, "nombre";
 ok $test.incidencias[2;3], $tipo;
 
 #test de integracion incidencia
-isa-ok($test.incidencias[2;3],IncidenciasTrafico::Incidencia,"Es de tipo incidencia");
+#isa-ok($test.incidencias[2;3],IncidenciasTrafico::Incidencia,"Es de tipo incidencia");
 isa-ok($test.archivar_incidencia(2,3), False, "Archivada de forma correcta");
 #false = archivada
-
-#$test.mostrar_incidencias;
-
 
 use Test;
 

@@ -2,7 +2,7 @@
 enum TipoIncidencia <Accidente Atasco Obras CarreteraCortada>;
 
 
-unit class IncidenciasTrafico::Incidencia;
+unit role IncidenciasTrafico::Incidencia;
 
 
 has Int $!cord_x is required;
@@ -17,6 +17,17 @@ method cerrar(){$!activa = False}
 method cord_x(--> Int) {$!cord_x}
 method cord_y(--> Int) {$!cord_y}
 method descripcion(--> Str) {$!descripcion}
-method tipo(--> TipoIncidencia) {$!tipo}
+method tipo(--> TipoIncidencia) {return $!tipo}
 method activo(--> Bool) {$!activa}
 
+method data(){
+    #haria falta ponerle un .Str??
+    #esto falla
+    return{
+            tipo => $!tipo.Str,
+            cord_x => $!cord_x.Str,
+            cord_y => $!cord_y.Str,
+            activa => $!activa.Str,
+            descripcion => $!descripcion
+    };
+}
