@@ -7,7 +7,7 @@ El lenguaje que vamos a usar para realizar la creación del microservicio será 
 
 Las historias de usuario se encuentra en [HU](https://github.com/RakutenTeam/IncidenciasTrafico/tree/master/HU).
 
-Desarollado por:     
+Desarollado por:    
 
 
 
