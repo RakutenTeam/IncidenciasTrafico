@@ -6,5 +6,15 @@
     "sake",
     "JSON::Fast"
   ],
-  "resources": [ "data.json"]
+  "resources": [ "data.json"],
+  "build-depends": [],
+  "test-depends": [],
+    "provides": {
+	"IncidenciasTrafico::JSON"     : "lib/IncidenciasTrafico/JSON.pm6",
+	"IncidenciasTrafico::Dator"          : "lib/IncidenciasTrafico/Dator.pm6",
+	"IncidenciasTrafico::Stored"         : "lib/IncidenciasTrafico/Stored.pm6",
+	"IncidenciasTrafico::Incidencia"          : "lib/IncidenciasTrafico/Incidencia.pm6",
+	"IncidenciasTrafico::Zona"      : "lib/IncidenciasTrafico/Zona.pm6"
+
+  }
 }
