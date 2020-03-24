@@ -2,5 +2,10 @@
    "lenguaje":"Raku",
    "build":"Sakefile",
    "clase":"lib/IncidenciasTrafico/incidencias.pm6",
+  "depends": [
+    "sake",
+    "JSON::Fast"
+  ],
+  "resources": [ "data.json"],
    "test" : "t/00-sanity.t"
 }

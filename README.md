@@ -15,4 +15,4 @@ Desarollado por:
 |-----------------|------------------------------------------------------------------------|     
 | José Santos     |https://www.linkedin.com/in/jose-santos-971459194/                      |        
 | Enrique Ruiz    | https://www.linkedin.com/in/enrique-ruiz-limones-562b381a3/            |       
-| Samuel Jimenez  | https://www.linkedin.com/in/samuel-jim%C3%A9nez-pi%C3%B1ero-412b4b1a3/ |       
+| Samuel Jimenez  | https://www.linkedin.com/in/samuel-jim%C3%A9nez-pi%C3%B1ero-412b4b1a3/ |      
