@@ -23,11 +23,11 @@ method activo(--> Bool) {$!activa}
 method data(){
     #haria falta ponerle un .Str??
     #esto falla
-    return{
-            tipo => $!tipo.Str,
-            cord_x => $!cord_x.Str,
-            cord_y => $!cord_y.Str,
-            activa => $!activa.Str,
+    return
+            tipo => $!tipo,
+            cord_x => $!cord_x,
+            cord_y => $!cord_y,
+            activa => $!activa,
             descripcion => $!descripcion
-    };
+
 }

@@ -6,17 +6,13 @@ unit class IncidenciasTrafico::Stored does IncidenciasTrafico::Incidencia;
 
 has IncidenciasTrafico::Dator $!dator;
 
-method new( IncidenciasTrafico::Dator $dator){
+submethod BUILD(Int :$!cord_x, Int :$!cord_y , TipoIncidencia :$!tipo, IncidenciasTrafico::Dator :$!dator ) {}
 
-    my %data = $dator.load;
+submethod TWEAK(){
+    my %data = $!dator.load;
 
-    my $!cord_x = %data<cord_x>;
-    my $!cord_y = %data<cord_y>;
-    my $!descripcion = %data<descripcion>;
-    my $!tipo = %data<tipo>;
-    my $!activa = %data<activa>;
-
-
+    $!descripcion = %data<descripcion>;
+    $!activa = %data<activa>.Bool;
 }
 
 multi method cerrarIncidencia()

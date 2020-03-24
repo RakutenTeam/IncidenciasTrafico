@@ -1,5 +1,6 @@
 use IncidenciasTrafico::Zona;
 use IncidenciasTrafico::Incidencia;
+use Test;
 
 my $tipo = Atasco;
 my $cord_x = 2;
@@ -16,6 +17,5 @@ ok $test.incidencias[2;3], $tipo;
 isa-ok($test.archivar_incidencia(2,3), False, "Archivada de forma correcta");
 #false = archivada
 
-use Test;
 
 done-testing;
