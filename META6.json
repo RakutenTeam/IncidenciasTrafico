@@ -1,0 +1,10 @@
+{
+  "name": "IncidenciasTrafico",
+  "version": "0.1",
+  "perl": "6.*",
+  "depends": [
+    "sake",
+    "JSON::Fast"
+  ],
+  "resources": [ "data.json"]
+}
